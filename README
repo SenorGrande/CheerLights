@@ -1,0 +1,6 @@
+How to get cheerlight starting on startup...
+/etc/rc.local - ( Edit this file )
+
+( Install forever )
+forever start /home/bundaberg/Cheerful/cheerful.js
+
