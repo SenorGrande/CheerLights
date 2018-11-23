@@ -1,6 +1,10 @@
-How to get cheerlight starting on startup...
+# How to get cheerlight starting on startup...
 /etc/rc.local - ( Edit this file )
 
 ( Install forever )
 forever start /home/bundaberg/Cheerful/cheerful.js
 
+sudo npm install johnny-five
+sudo npm install request
+# Sometimes serialport won't install when installing request
+sudo npm install serialport --unsafe-perm
